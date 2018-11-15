@@ -17,7 +17,7 @@ end
 
 def self.find(id, db)
   db.execute("SELECT id FROM pokemon WHERE id = ?", id)
-  Pokemon.new("Pikachu", "electric")
+  Pokemon.new("1","Pikachu", "electric")
 end
 
 end
