@@ -21,4 +21,8 @@ def self.find(id, db)
   Pokemon.new(1,"Pikachu", "electric")
 end
 
+self.alter_table_migration
+
+end
+
 end
