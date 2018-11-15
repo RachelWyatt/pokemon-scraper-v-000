@@ -25,4 +25,4 @@ self.alter_table_migration
 
 end
 
-end
+
